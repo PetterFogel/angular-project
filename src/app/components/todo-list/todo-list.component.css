@@ -1,0 +1,12 @@
+.list-container {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+}
+
+.list-title {
+    color: #444;
+    margin-bottom: 1rem;
+}
