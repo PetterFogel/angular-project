@@ -1,4 +1,4 @@
 <form action="/">
-    <input class="form-input" type="text">
-    <input class="form-btn" type="submit" value="Submit">
+    <input (keyup)="getValue($event)" class="form-input" type="text">
+    <input (click)="test($event)" class="form-btn" type="submit" value="Add todo">
 </form>

@@ -8,4 +8,5 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 3px 3px 10px #333;
+    border-radius: 0.5rem;
 }
