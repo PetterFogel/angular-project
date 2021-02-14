@@ -1,0 +1,25 @@
+<!-- Form -->
+<div class="form-container">
+    <form action="/">
+        <input 
+            class="form-input" 
+            type="text"
+            (keyup)="getValue($event)"
+        />
+        <input 
+            class="form-btn" 
+            type="submit"
+            value="Submit"
+            (click)="addTodo(inputValue)" 
+        />
+    </form>
+</div>
+<!-- Todo List -->
+<div class="todo-list-container">
+    <h3 class="todo-title">Todays Todos:</h3>
+    <ul>
+        <li *ngFor="let todos of todoList" class="todo-items">
+            {{ todos }}
+        </li>
+    </ul>
+</div>

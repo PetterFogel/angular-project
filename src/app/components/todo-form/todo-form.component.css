@@ -1,0 +1,49 @@
+/* Form Container */
+
+.form-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    color: #333;
+    border-radius: 0.5rem;
+    border: 2px solid #ddd;
+}
+
+.form-btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: rgb(243, 118, 210);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: all 300ms ease;
+}
+
+.form-btn:hover {
+    background: rgb(223, 107, 192);
+}
+
+/* Todo List */
+.todo-list-container {
+    width: 100%;
+    height: 12rem;
+    border: 2px solid #ddd;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.todo-title {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.todo-list-container li {
+    list-style: none;
+    color:rgb(223, 107, 192);
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
