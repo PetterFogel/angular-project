@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  title = "Todo-Today";
+  subTitle = "What will you do today?";
 
   constructor() { }
 

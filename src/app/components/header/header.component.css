@@ -1,9 +1,12 @@
 .title {
-    color: rgb(230, 101, 217);
+    color: #000;
+    font-size: 3rem;
     text-align: center;
+    color: rgb(243, 118, 210);
 }
 
-.title-paragraph {
-    color: rgb(202, 84, 191);
+.sub-title {
     text-align: center;
+    margin-top: 1rem;
+    color: rgb(197, 100, 172);
 }
