@@ -6,8 +6,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./todo-form.component.css']
 })
 export class TodoFormComponent implements OnInit {
+todoList: Array<string> = [];
 inputValue: string = "";
-@Output() buttonClicked = new EventEmitter<string>();
+@Output() buttonClicked = new EventEmitter<string[]>();
 
   constructor() { }
 
@@ -19,6 +20,7 @@ inputValue: string = "";
   }
   
   fetchInputValue() {
-    this.buttonClicked.emit(this.inputValue);
+    this.todoList.push(this.inputValue);
+    this.buttonClicked.emit(this.todoList);
   }
 }

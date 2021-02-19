@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoListComponent implements OnInit {
 todoList: Array<string> = [];
-todo: string = "";
+// todo: string = "";
 
   constructor() { }
   
@@ -15,10 +15,9 @@ todo: string = "";
 
   }
 
-  addTodo(inputValue: string) {
-    this.todo = inputValue;
-    this.todoList.push(this.todo);
-    console.log(this.todoList);
+  addTodo(value: string[]) {
+    this.todoList = value;
+    console.log(this.todoList)
   }
 
 }
