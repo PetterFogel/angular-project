@@ -7,5 +7,3 @@
 To get in the Angular project folder, type `cd my-app` in the terminal.
 After, type `ng serve --open` in the terminal, 
 this will automatically open a new window in your browser.
-
-## Click [here](https://petterfogel.github.io/angular-project/) for demo.
