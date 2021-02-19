@@ -5,4 +5,4 @@
 ## Start project
 
 To get in the Angular project folder, type `cd my-app` in the terminal.
-To start the project, type `ng serve --open` in the terminal, this will automatically open a new window in your broswer.
+To start the project, type `ng serve --open` in the terminal, this will automatically open a new window in your browser.
